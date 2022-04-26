@@ -1,6 +1,3 @@
-## Value Object persistance strategies
-
-
 ## Overview
 Value objects are one of tactical building blocks for modeling business domain introduced and popularized by Domain Driven Design approach.
 However, we can exploit value objects even if we do not tackling complex domain problem. Value objects, in contrast to entites, are defined only

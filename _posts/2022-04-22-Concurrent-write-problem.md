@@ -1,5 +1,3 @@
-## Concurrent write problem
-
 ## Introduction
 Concurrency control is one of the most challenging aspects of software development. Sometimes, we have a tendency to wishful thinking and naive beliefs that our advanced toolkit like a web framework, a database or an ORM solve all our issues seamlessly underhood. However, when we tackle non-trivial problem (like concurrent write), we have to demonstrate some understanding how these tools genuinely work (and maybe why they are configured in the specific way).
 
