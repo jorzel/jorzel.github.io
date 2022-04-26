@@ -9,7 +9,7 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <p>{{ post.date | date: "%-d %B %Y" }}</p>
       <div class="entry">
-        {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}
+        {{ post.description}}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
