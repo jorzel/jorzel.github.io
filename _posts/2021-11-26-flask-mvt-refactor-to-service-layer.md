@@ -1,6 +1,7 @@
 ---
 title: Flask MVT. Refactor to service layer
 description: In this short post I would like to show how we can improve separation of concerns using Service Layer pattern within Model View Template approach.
+tags: python flask mvt mvc service-layer refactoring
 ---
 
 In this short post I would like to show how we can improve separation of concerns using Service Layer pattern within Model View Template approach.
