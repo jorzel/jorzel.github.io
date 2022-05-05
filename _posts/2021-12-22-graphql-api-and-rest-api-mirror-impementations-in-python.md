@@ -1,6 +1,7 @@
 ---
 title: GraphQL API and REST API. Mirror implementations in Python
 description: REST is probably the most popular way to expose your application to the external world (e.g. as a backend for frontend or to establish communication protocol with other application / service). However, GraphQL is now getting more and more popular, and have became a strong competitor for REST.
+tags: rest graphql python
 ---
 
 ## Introduction

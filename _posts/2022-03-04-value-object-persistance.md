@@ -1,6 +1,7 @@
 ---
 title: Value Object persistance strategies
 description: Value objects are one of tactical building blocks for modeling business domain introduced and popularized by Domain Driven Design approach. However, we can exploit value objects even if we do not tackling complex domain problem.
+tags: ddd persistance sqlalchemy python value-object
 ---
 
 ## Overview

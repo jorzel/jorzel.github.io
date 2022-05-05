@@ -1,6 +1,7 @@
 ---
 title: How to build PostgreSQL full text search engine in any language
 description: In this short post I will show step by step how to establish full text search engine in PostgreSQL. Several options like `ilike`, trigrams search and tsearch will be presented.
+tags: postgresql full-text-search
 ---
 
 In this short post I will show step by step how to establish full text search engine in PostgreSQL. Several options like `ilike`, trigrams search and tsearch will be presented.

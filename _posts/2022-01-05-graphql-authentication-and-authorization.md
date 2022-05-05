@@ -1,6 +1,7 @@
 ---
 title: GraphQL authentication and authorization
 description: In this second post regarding GraphQL I would like to show how to manage authentication and authorization in GraphQL API. Authentication and authorization are often mixed each other but these concepts are responsible for different processes. The former determine user identity (whether user is logged in or 'recognized' by a system), while the latter refers to whether an authenticated user has access to a given resource. So usually authentication stage precede authorization one.
+tags: rest graphql python auth
 ---
 
 ## Introduction
