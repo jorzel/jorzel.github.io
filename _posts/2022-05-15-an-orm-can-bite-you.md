@@ -7,7 +7,8 @@ tags: python orm sqlalchemy database
 ## Introduction
 Object Relational Mappers (ORMs) are widely used in software development to abstract database operations in our application code by providing a layer between object-oriented programming language and relational tables in a database. However we should be conscious that simple and inconspicuous expressions provided by our ORM can lead to heavy actions underhood. To present it I will take SQLAlchemy, one of the most popular ORMs in Python world.
 
-Suppose we have a set of simplified models representing a`User` in a `Company`:
+Suppose we have a set of simplified models representing a `User` in a `Company`:
+
 ![model.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652520656984/zrr7NhFW4.png)
 
 ```python
@@ -65,7 +66,7 @@ with Session() as session:
 
 `DBStatementCounter` is a [helper class](https://stackoverflow.com/questions/19073099/how-to-count-sqlalchemy-queries-in-unit-tests) that counts how many database statements was executed within a given context. Assuming that a `Person` was found, what number of queries do you expect from above part of code?
 
-Correct answer is: 5. Surprised? 
+Correct answer is: 5. Surprised?
 
 One query is explicit:
 
@@ -132,7 +133,7 @@ JOIN user_account ON user.id = user_account.user_id
 JOIN account ON account.id = user_account.account_id
 JOIN company ON company.id = account.company_id
 LEFT OUTER JOIN user AS user_1 ON person.id = user_1.person_id
-LEFT OUTER JOIN user_account AS user_account_1 ON user_1.id = user_account_1.user_id 
+LEFT OUTER JOIN user_account AS user_account_1 ON user_1.id = user_account_1.user_id
 LEFT OUTER JOIN account AS account_1 ON account_1.id = user_account_1.account_id
 LEFT OUTER JOIN company AS company_1 ON company_1.id = account_1.company_id
 WHERE lower(person.name) LIKE lower(?) AND lower(account.status) LIKE lower(?) AND lower(company.name) LIKE lower(?)
