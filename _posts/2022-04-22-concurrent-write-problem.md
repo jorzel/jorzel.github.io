@@ -47,7 +47,7 @@ So, how we can change this behavior to have counter increased serially or at lea
 ## Optimistic locking
 The first group of solutions is optimistic locking. In fact, it does not lock rows for concurrent access but optimistically assumes that a row would not be changed by another transaction. However, if the row does change by concurrent process, the modification will fail and the application can handle it. There are two ways how to implement it: 
 - using a `version_number` column (it can be integer, timestamp, or hash). The update is possible only if the `version_number` at the commit stage is equal to the `version_number` from query time. Each commit should update also the `version_number` of the row. On the application side, we can check if the row was updated and make proper action.
-```SQL
+```sql
 BEGIN;
 SELECT  important_counter, version_number
 FROM example 
@@ -58,10 +58,11 @@ UPDATE example SET important_counter = <new_value>, version_number = version_num
 WHERE id = 1 AND version_number = <version_number_from_select>;
 COMMIT;
 ```
+
 ![optimistic.drawio.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650543766052/twawRuifz.png)
 
 - by switching to repeatable read isolation level. When T2 tries to commit changes after a successful T1 commit, an exception is raised (worth mentioning it would not be raised if T1 is rollbacked). Again, we can decide how to handle the exception.
-```SQL
+```sql
 SET TRANSACTION REPEATABLE READ;
 BEGIN;
 SELECT  important_counter 
@@ -73,12 +74,13 @@ UPDATE example SET important_counter = <new_value>
 WHERE id = 1;
 COMMIT;
 ```
+
 ![optimistic_readable_read.drawio.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650543786881/gyXsRx36i.png)
 
 ## Pessimistic locking
 A pessimistic approach prevents simultaneous modification of a record by placing a lock on it when one transaction starts an update process. A concurrent transaction that wants to access a locked row has two options:
 - wait until transaction T1 is completed.
-```SQL
+```sql
 BEGIN;
 SELECT  important_counter 
 FROM example 
@@ -89,10 +91,11 @@ UPDATE example SET important_counter = <new_value>
 WHERE id = 1;
 COMMIT;
 ```
+
 ![pessimistic_wait.drawio.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650543799429/dT6V6yF7t.png)
 
 - break the process and raise an exception that should be handled.
-```SQL
+```sql
 BEGIN;
 SELECT  important_counter 
 FROM example 
@@ -103,16 +106,18 @@ UPDATE example SET important_counter = <new_value>
 WHERE id = 1;
 COMMIT;
 ```
+
 ![pessimistic_nowait.drawio.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650543813518/_8Qf2N797.png)
 
 ## Update with an inline increment
 There is also a simple solution when our goal is only to increment a value. However, it would work only if we do not need a part of the application logic check, so the update process is not separated from a query that can be not up-to-date.
-```SQL
+```sql
 BEGIN;
 UPDATE example SET important_counter = important_counter + 1 
 WHERE id = 1;
 COMMIT;
 ```
+
 ![increment_on_update.drawio.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650562787357/9mV2zIWZu.png)
 
 ## Conclusion
