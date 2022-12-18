@@ -8,14 +8,14 @@ PostgreSQL is a widely-used, open source object-relational database system. Howe
 
 ## Setup
 The first step is the creation of a database instance. All database commands will be executed inside `psql` terminal.
-```SQL
+```sql
 >> CREATE DATABASE ftdb;
 ```
 To create a table and feed it with an example dataset (100k rows, 15 English words each) I have written a python script (link to Github repo, which you find at the end of this story). However, you can do it with native SQL as well.
 
 ## Full-text search using simple `ilike`
 At the very beginning, I start with `ilike` operator. This option is easy and straightforward.  However, you may not be satisfied with query performance when your database is getting large.
-```SQL
+```sql
 >> EXPLAIN ANALYZE
    SELECT text, language
    FROM public.document
@@ -38,7 +38,7 @@ At the very beginning, I start with `ilike` operator. This option is easy and st
 
 ## Full-text search using `ilike` supported by trigram index
 However, we can improve `ilike` performance using trigram search. What is a trigram search? Citing [wikipedia](https://en.wikipedia.org/wiki/Trigram_search): *It finds objects which match the maximum number of three-character strings in the entered search terms*. See the trigram example:
-```SQL
+```sql
 >> CREATE EXTENSION pg_trgm;
 CREATE EXTENSION
 >> select show_trgm('fielded');
@@ -47,7 +47,7 @@ CREATE EXTENSION
  {"  f"," fi",ded,"ed ",eld,fie,iel,lde}
 ```
 Creating a trigram index can speed up `ilike` query.
-```SQL
+```sql
 >> CREATE INDEX  ix_document_text_trigram ON document USING gin (text gin_trgm_ops) where language = 'en';
 CREATE INDEX
 
@@ -80,7 +80,7 @@ polish.affix, polish.stop and polish.dict files should be copied to PostgreSQL s
 e.g. `/usr/share/postgresql/13/tsearch_data`. To determine your sharedir location you can use `pg_config --sharedir`.
 
 There also must be created a configuration (see [docs](https://www.postgresql.org/docs/current/textsearch-dictionaries.html)) inside database:
-```SQL
+```sql
 >> DROP TEXT SEARCH DICTIONARY IF EXISTS polish_hunspell CASCADE;
    CREATE TEXT SEARCH DICTIONARY polish_hunspell (
     TEMPLATE  = ispell,
@@ -100,7 +100,7 @@ There also must be created a configuration (see [docs](https://www.postgresql.or
 
 ```
 You need these files and configuration because full-text search engine uses lexeme comparing to find the best matches (both query pattern and stored text are lexemized):
-```SQL
+```sql
 >> SELECT to_tsquery('english', 'fielded'), to_tsvector('english', text)
    FROM document
    LIMIT 1;
@@ -121,7 +121,7 @@ If you cannot provide dictionary files you can still use full-text search in "si
 
 ## Tsearch full-text search without the stored index
 At first glance, the performance of tsearch query is really poor... 
-```SQL
+```sql
 >> EXPLAIN ANALYZE
    SELECT text, language
    FROM public.document
@@ -143,7 +143,7 @@ However, our data have not been indexed yet...
 
 ## Tsearch full-text search with stored partial index
 A partial index gives a possibility to store records in different languages using the same database table and query them effectively.
-```SQL
+```sql
 >> CREATE INDEX ix_en_document_tsvector_text ON public.document USING gin (to_tsvector('english'::regconfig, text)) WHERE language = 'en';
 CREATED INDEX
 >> EXPLAIN ANALYZE
@@ -175,7 +175,7 @@ Ohh, look to the partial index [docs](https://www.postgresql.org/docs/current/in
 > Matching takes place at query planning time, not at run time. As a result, parameterized query clauses do not work with a partial index.
 
 We have to add to our query a condition that was used to create a partial index: `document.language = 'en'`:
-```SQL
+```sql
 >> EXPłLAIN ANALYZE
    SELECT text, language
    FROM public.document
@@ -195,7 +195,7 @@ We have to add to our query a condition that was used to create a partial index:
 
 ## Tsearch full-text search for partial words
 `:*` operator enables prefix search. It can be useful to execute full-text search during typing a word.
-```SQL
+```sql
 >> EXPLAIN ANALYZE
    SELECT text, language
    FROM public.document
@@ -234,7 +234,7 @@ There are two quite similar functions to rank tsearch results:
 - `ts_rank_cd`, that computes the "cover density" ranking
 
 For more info, see the [docs](https://www.postgresql.org/docs/13/textsearch-controls.html)
-```SQL
+```sql
 >> SELECT
      id,
      ts_rank_cd(to_tsvector('english', text), to_tsquery('english', 'fielded & wind:*')) rank,
@@ -267,7 +267,7 @@ For more info, see the [docs](https://www.postgresql.org/docs/13/textsearch-cont
 We have created a GIN index. But there is also a GIST index option. Which one is better?
 It depends...
 
-```SQL
+```sql
 >> EXPLAIN ANALYZE
    SELECT text, language
    FROM public.document

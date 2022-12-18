@@ -13,7 +13,8 @@ My goal was to count all `Offer` rows that are associated with the given`company
 The table `Offer` is quite large (~ 4mln rows), but the timing of the query has been really poor. Although I have indexes on columns used for filtering and joining (`ix_offer_customer_id` and `ix_customer_company_id`), query time exceeds 3-4 seconds (sometimes reaches even 10-15 seconds). 
 
 For my query debugging, I have started with the `EXPLAIN ANALYZE` command to profile the query:
-```
+
+```bash
 postgres=# explain analyze select count(*) from offer o join customer c on c.id = o.customer_id where company_id = 1010;
                                                                         QUERY PLAN                                                                         
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,9 +32,11 @@ Aggregate  (cost=955320.63..955320.64 rows=1 width=8) (actual time=2118.923..211
  Planning time: 0.203 ms
  Execution time: 2118.962 ms
 ```
+
 The above plan shows that my query does a sequential scan on the `Offer` table and the `ix_customer_company_id` index has not been exploited.
 I came across a [similar problem](https://stackoverflow.com/questions/64808904/postgres-uses-hash-join-with-seq-scan-when-inner-select-index-cond-is-faster) in StackOverflow while looking for a solution. It turned out that my table statistics estimation is not up-to-date and the query planner avoids using the `ix_customer_company_id` index. Executing `ANALYZE offer` command improved performance massively by decreasing query time from more than 3 seconds to several milliseconds:
-```
+
+```bash
 postgres=# ANALYZE offer;
 ANALYZE
 postgres=# EXPLAIN ANALYZE select count(*) from offer o join customer c on c.id = o.customer_id where company_id = 1010;
@@ -52,4 +55,5 @@ Aggregate  (cost=3145.05..3145.06 rows=1 width=8) (actual time=11.308..11.308 ro
  Planning time: 0.519 ms
  Execution time: 11.337 ms
 ```
+
 The `ANALYZE` command is non-blocking and quite fast, so it can be executed quite regularly. You should remember about it especially when a table's contents have substantially changed (e.g. a lot of added, updated, or deleted rows). If you run into a similar problem, it should be one of the first things you try. I hope it helps and saves your debugging time.
