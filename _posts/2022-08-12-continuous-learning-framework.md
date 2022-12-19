@@ -90,7 +90,7 @@ Nowadays, being a software developer is not restricted only to coding abilities.
 To conclude, take a growth mindset approach, build a repetitive learning system, and detect dull tools to replace them.
 
 Here you have some Twitter accounts regarding the blog post topic that are worth following:
-- https://twitter.com/AdamMGrant
-- https://twitter.com/oliverjumpertz
-- https://twitter.com/_alexbrogan
-- https://twitter.com/emollick
+- [https://twitter.com/AdamMGrant](https://twitter.com/AdamMGrant)
+- [https://twitter.com/oliverjumpertz](https://twitter.com/oliverjumpertz)
+- [https://twitter.com/_alexbrogan](https://twitter.com/_alexbrogan)
+- [https://twitter.com/emollick](https://twitter.com/emollick)
