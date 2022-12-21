@@ -1,7 +1,7 @@
 ---
 title: Deep work. Essentialism in asynchronous culture
 description: Nowadays, we are getting accustomed to working in a continuously interrupting environment. Smartphone notifications, hundreds of e-mails, open spaces, and meetings slicing our workday. We are feeling busy, and overworked, but are we more productive? 
-tags: learning deep-work communication
+tags: learning deep-work communication books
 ---
 
 ## Deep work
