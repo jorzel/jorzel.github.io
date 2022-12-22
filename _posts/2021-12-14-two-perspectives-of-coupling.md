@@ -1,20 +1,24 @@
 ---
 title: Coupling. Two perspectives
 description: Coupling is a concept used in software engineering to define how tight is a relationship between system components (classes, modules, subsystems). Coupling is strictly connected to cohesion concept ("togetherness" of a component) and there is a common heuristic for software developers that we should design components that have high cohesion and are loosely coupled.
-tags: python coupling
+tags: python coupling software-development
 ---
 
 
 Coupling is a concept used in software engineering to define how tight a relationship between system components (classes, modules, subsystems) is. Here you have some definitions:
-- > Coupling is inter-connection between modules </br>
-source: K. Henney: https://www.youtube.com/watch?v=tMW08JkFrBA
+- > Coupling is inter-connection between modules
+(source: https://www.youtube.com/watch?v=tMW08JkFrBA)
 
-- > Loose Coupling is when things that should not be together are not together </br>
-source: https://injulkarnilesh.github.io/design-principles/COHESION_AND_COUPLING/
+- > Loose Coupling is when things that should not be together are not together
+(source: https://injulkarnilesh.github.io/design-principles/COHESION_AND_COUPLING/)
 
-- > Coupling represents the degree to which a single unit is independent of others </br> source: https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/
+- > Coupling represents the degree to which a single unit is independent of others
+(source: https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/)
 
-- >  Coupling refers to how inextricably linked different aspects of an application are </br> source: https://deviq.com/principles/single-responsibility-principle
+- >  Coupling refers to how inextricably linked different aspects of an application are
+(source: https://deviq.com/principles/single-responsibility-principle)
+
+In this article, I would like to look at the coupling concept from two perspectives: qualitative and quantitative, and find some ways for decoupling. 
 
 ## Two perspectives
 Coupling is strictly connected to the cohesion concept ("togetherness" of a component) and there is a common heuristic for software developers that we should design components that have high cohesion and are loosely coupled.
