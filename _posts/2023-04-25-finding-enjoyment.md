@@ -1,7 +1,7 @@
 ---
 title: Finding enjoyment
 description: People often think that material possessions or external achievements will bring them happiness and fulfillment. This may include things like a high-paying job or social status. However, research has shown that these external factors are not necessarily the key to happiness.
-tags: books psychology learning
+tags: books psychology learning flow life
 
 ---
 
