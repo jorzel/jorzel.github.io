@@ -1,7 +1,7 @@
 ---
 title: Efficiency traps
 description: Efficiency can be defined as doing things correctly, but also in a reasonable amount of time. We are trying to improve our work attitude and are ready to disturb our work-life balance to generate more output. To boost our efficiency we tend to eradicate activities that do not increase the amount of desired stuff done. Cannot make a break, need overtime, must finish X, can have a desk lunch, etc. Constant efficiency growth becomes the main goal. Something that should be instrumental is becoming essential.
-tags: efficiency productivity books 
+tags: efficiency productivity books life 
 ---
 
 Efficiency can be defined as doing things correctly, but also in a reasonable amount of time. We are trying to improve our work attitude and are ready to disturb our work-life balance to generate more output. To boost our efficiency we tend to eradicate activities that do not increase the amount of desired stuff done. Cannot make a break, need overtime, must finish X, can have a desk lunch, etc. Constant efficiency growth becomes the main goal. Something that should be instrumental is becoming essential.
