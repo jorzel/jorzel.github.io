@@ -1,5 +1,8 @@
 ---
 title: "The Power of Conventions in Software Development"
+description: "A convention is a widely accepted and agreed-upon practice, rule, or standard that guides behavior, decision-making, or design within a specific context. It provides a framework for consistency and promotes shared understanding and predictable outcomes.
+
+Conventions can play an important role in reducing cognitive load in software development."
 slug: the-power-of-conventions-in-software-development
 tags: software-development programming software-architecture team
 

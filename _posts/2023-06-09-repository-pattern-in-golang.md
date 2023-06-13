@@ -1,5 +1,6 @@
 ---
 title: "Repository Pattern in Golang: Redis and External API as providers"
+description: "The Repository Pattern is a software design pattern that provides an abstraction layer between the business logic of an application and the persistence layer (typically a database). It helps to separate the concerns and provides a consistent interface to access and manage data."
 slug: repository-pattern-in-golang-redis-and-external-api-as-providers
 tags: design-patterns go learning ddd software-development
 
