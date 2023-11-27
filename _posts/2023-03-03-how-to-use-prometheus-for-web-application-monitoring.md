@@ -2,7 +2,7 @@
 title: "How to use Prometheus for web application monitoring"
 description: In this post, I would like to show how we can implement web application monitoring using Prometheus. We discuss how to choose some metrics as Service Level Indicators (SLIs) and also how to ensure system reliability by setting proper targets as System Level Objectives (SLOs)
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677842405923/869817c4-e36e-4b72-a9e7-05f20acce48b.webp
-tags: python learning monitoring devops prometheus sre
+tags: python learning monitoring devops prometheus sre observability
 ---
 
 ## Introduction
