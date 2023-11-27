@@ -80,7 +80,7 @@ source: [https://codescene.com/blog/visualize-brooks-law/](https://codescene.com
 
 This cost mainly comes from extensive communication paths within a team. If we have 3 people, we have only 3 communication paths. For 10 people, we get 45 paths...
 
-![/img/brooks-law.png#center](https://zknill.io/img/brooks-law.png#center align="left")
+![/img/brooks-law.png#center](https://zknill.io/img/brooks-law.png#center)
 
 source: [https://zknill.io/posts/brooks-law-hierarchy-async-comms/](https://zknill.io/posts/brooks-law-hierarchy-async-comms/)
 

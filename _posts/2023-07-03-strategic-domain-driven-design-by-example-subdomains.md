@@ -1,6 +1,6 @@
 ---
 title: "Strategic Domain-Driven Design by Example: Subdomains"
-description: "Understanding what our business domain consists of and what are relationships between these parts are is crucial as it enables effective organization"
+description: "A business domain refers to a specific area or aspect of a business or organization's operations, activities, and expertise. It represents a distinct sphere of knowledge, processes, and rules that govern the organization's functions and activities within a particular industry or market. Understanding what our business domain consists of and what are relationships between these parts are is crucial as it enables effective organization, modularization, and prioritization of development efforts, resulting in improved system design and alignment with business needs."
 slug: strategic-domain-driven-design-subdomains-identification
 tags: software-development programming software-architecture learning ddd
 

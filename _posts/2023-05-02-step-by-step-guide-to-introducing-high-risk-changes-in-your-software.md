@@ -1,6 +1,6 @@
 ---
 title: "Step-by-step guide to safely introducing high-risk changes in your software system"
-description: "When introducing a change to a software system, it's essential to do so in a way that minimizes the risk of unintended consequences"
+description: "When introducing a change to a software system, it's essential to do so in a way that minimizes the risk of unintended consequences or negative impact on users. Even if we have a new solution tested, we can still be afraid of deploying it at scale because of the high cost of possible errors. It's important to plan and coordinate any changes to a software system carefully, and to communicate clearly with users about any potential impacts or downtime."
 tags: software-development programming software-engineering risk-management
 ---
 

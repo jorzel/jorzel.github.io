@@ -1,6 +1,6 @@
 ---
 title: "Talent is overestimated"
-description: "The concept of talent can sometimes create the perception that certain abilities or domains are only accessible to a select few who are naturally gifted."
+description: "The concept of talent can sometimes create the perception that certain abilities or domains are only accessible to a select few who are naturally gifted. The belief that talent is an innate, fixed trait tends to be relatively common and widespread among people. This understanding suggests that individuals are born with specific abilities and that talent is a natural predisposition that cannot be significantly changed or improved upon. I personally have a problem with that talent perception. Maybe it is not totally false but it is definitely harmful to how people perceive their learning opportunities."
 tags: programming learning talent
 ---
 

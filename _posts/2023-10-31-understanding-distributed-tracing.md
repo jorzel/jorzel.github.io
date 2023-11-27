@@ -1,6 +1,6 @@
 ---
 title: "Understanding Distributed Tracing: A Python Guide with OpenTelemetry and Grafana Tempo"
-description: "Tracing is a critical component of modern observability methods, along with metrics and logging."
+description: "Tracing is a critical component of modern observability methods, along with metrics and logging. It is a technique used in software systems to monitor and profile the behavior of applications in a distributed, microservices-based environment. It helps you understand how requests flow through various components of your application and can be useful for diagnosing performance issues and understanding the interactions between services."
 slug: understanding-distributed-tracing-a-python-guide-with-opentelemetry-and-grafana-tempo
 tags: programming learning devops observability distributed-tracing opentelemetry python
 

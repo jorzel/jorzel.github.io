@@ -1,6 +1,6 @@
 ---
 title: "How to build an alerting system with Prometheus and Alertmanager"
-description: "Alertmanager is a component of the Prometheus ecosystem that manages and sends alerts based on the rules defined in Prometheus"
+description: "While Prometheus is excellent at collecting and storing metrics, it does not provide a built-in mechanism for alert notifications. This is where Alertmanager comes in. Alertmanager is a component of the Prometheus ecosystem that manages and sends alerts based on the rules defined in Prometheus. It allows you to configure different alerting rules for different sets of metrics and specify how you want to receive alerts, such as via email, text messages, Slack, PagerDuty, or other integrations."
 tags: learning monitoring devops prometheus alert sre
 
 ---

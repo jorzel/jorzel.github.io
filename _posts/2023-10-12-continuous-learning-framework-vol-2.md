@@ -22,7 +22,7 @@ Simple examples of venturing into the realm of 'unknown unknowns' include readin
 
 People with a fixed mindset often limit themselves by thinking they can only succeed in areas where they believe they have innate talent or where they've demonstrated prior competence. This can create a fear of failure in new areas or a reluctance to take on challenges that might stretch their abilities.
 
-![Growth Mindset vs Fixed Mindset: What Do They Really Mean? - Mentorloop  Mentoring Software](https://mentorloop.com/wp-content/uploads/2023/05/growth-vs-fixed-mindset.jpeg align="left")
+![Growth Mindset vs Fixed Mindset: What Do They Really Mean? - Mentorloop  Mentoring Software](https://mentorloop.com/wp-content/uploads/2023/05/growth-vs-fixed-mindset.jpeg)
 
 [source](https://mentorloop.com/blog/growth-mindset-vs-fixed-mindset-what-do-they-really-mean/)
 
@@ -42,7 +42,7 @@ Take writing a great book, for instance. Many people might believe it's beyond t
 
 ## Timeboxing
 
-![Timebox Timer – Aplikacje w Google Play](https://play-lh.googleusercontent.com/gIl9-322NeskCa0ErylKW8DkwsWOBu-3f2t0udpChn8LzvQMRD03Rf9QVHxXOVD4Gw align="left")
+![Timebox Timer – Aplikacje w Google Play](https://play-lh.googleusercontent.com/gIl9-322NeskCa0ErylKW8DkwsWOBu-3f2t0udpChn8LzvQMRD03Rf9QVHxXOVD4Gw)
 
 Timeboxing is indeed a valuable strategy for both short-term and long-term skill development. It allows us to allocate a specific amount of time to an activity, granting it an opportunity to grow and flourish. However, if we find that we are not deriving the expected enjoyment or benefit from the activity, we can gracefully and without hesitation choose to discontinue it. This structured approach enables us to explore various activities, maintaining a balance between commitment and adaptability in our skill development journey.
 
