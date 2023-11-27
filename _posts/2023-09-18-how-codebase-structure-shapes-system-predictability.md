@@ -8,7 +8,7 @@ tags: software-development programming software-architecture software-engineerin
 
 ## Why does the structure matter?
 
-In [one of the previous posts](https://jorzel.hashnode.dev/the-power-of-conventions-in-software-development), I discussed the influence of coding conventions on software development. Now I would like to elaborate on gains of having a well-structured codebase.
+In [one of the previous posts](https://jorzel.github.io/the-power-of-conventions-in-software-development), I discussed the influence of coding conventions on software development. Now I would like to elaborate on gains of having a well-structured codebase.
 
 The structure of the codebase should visually communicate the main functionalities and responsibilities of the system. This at-a-glance understanding helps developers, new team members, and stakeholders quickly grasp what the software does and how it's organized. A well-structured codebase is like a well-organized library. It allows developers to quickly locate specific pieces of code, modules, or functionalities. This ease of navigation reduces the time spent searching and promotes efficient development and debugging.
 

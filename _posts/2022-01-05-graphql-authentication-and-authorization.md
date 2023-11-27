@@ -10,7 +10,7 @@ In this second post regarding GraphQL, I would like to show how to manage authen
 Inspiration for this post has been a [stackoverflow question](https://stackoverflow.com/questions/69126083/set-permissions-on-graphene-relay-node-and-connection-fields/70252461#70252461) that seeks an answer for that topic.
 
 ## Application setup
-The post is a follow-up for  [my text](https://jorzel.hashnode.dev/graphql-api-and-rest-api-mirror-implementations-in-python) comparing GraphQL and REST example implementations in python. So you could find their requirements to set up an application.
+The post is a follow-up for  [my text](https://jorzel.github.io/graphql-api-and-rest-api-mirror-impementations-in-python) comparing GraphQL and REST example implementations in python. So you could find their requirements to set up an application.
 
 ## Sign Up / Sign In
 We start from a simple `User` model that has `email` and hashed `password` properties. 

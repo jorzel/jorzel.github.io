@@ -12,7 +12,7 @@ Work disengagement can occur when there is a mismatch between a person's abiliti
 
 The article [The Relationship between Flow Experience and Burnout Symptoms: A Systematic Review](https://pubmed.ncbi.nlm.nih.gov/35409547/) examines the relationship between flow experience and burnout symptoms. The authors conducted a systematic review of existing research on the relationship between flow experience and burnout symptoms. They found that flow experience was negatively correlated with burnout symptoms, meaning that individuals who experience flow more frequently are less likely to experience burnout.
 
-In the [previous post](https://jorzel.hashnode.dev/finding-enjoyment), I discussed a flow concept and how it can be utilized to increase enjoyment from common activities.
+In the [previous post](https://jorzel.github.io/finding-enjoyment), I discussed a flow concept and how it can be utilized to increase enjoyment from common activities.
 
 The following diagram can give us an answer to why flow and work disengagement (burnout and boreout) are two sides of the same coin.
 

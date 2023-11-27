@@ -227,7 +227,7 @@ func generateDownloaderKey(userId downloader.UserId) string {
 }
 ```
 
-In cases where you are using a data store like Redis, which does not provide transactional guarantees, there is a possibility of stale data if changes are made to the data outside the context of the repository. You can mitigate that behavior by using optimistic or pessimistic locking approaches (see more [here](https://jorzel.hashnode.dev/concurrent-write-problem) about it). Atomic operations are also supported in Redis by using Lua scripts. However, the Lua scripts utilization would exclude the possibility of repository pattern implementation.
+In cases where you are using a data store like Redis, which does not provide transactional guarantees, there is a possibility of stale data if changes are made to the data outside the context of the repository. You can mitigate that behavior by using optimistic or pessimistic locking approaches (see more [here](https://jorzel.github.io/concurrent-write-problem) about it). Atomic operations are also supported in Redis by using Lua scripts. However, the Lua scripts utilization would exclude the possibility of repository pattern implementation.
 
 ### External API with cache
 

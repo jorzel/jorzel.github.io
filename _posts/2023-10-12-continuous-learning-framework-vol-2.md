@@ -6,7 +6,7 @@ tags: software-development programming learning self-improvement learning-journe
 
 ---
 
-More than one year ago I wrote [the article](https://jorzel.hashnode.dev/continuous-learning-framework) about creating a learning framework that would keep our self-development on track. In this post, I would like to elaborate on it and add several ideas related to the topic: the concepts of mindset and talent, the significance of incremental progress, and the power of curiosity in expanding our horizons.
+More than one year ago I wrote [the article](https://jorzel.github.io/continuous-learning-framework) about creating a learning framework that would keep our self-development on track. In this post, I would like to elaborate on it and add several ideas related to the topic: the concepts of mindset and talent, the significance of incremental progress, and the power of curiosity in expanding our horizons.
 
 ## **Exploring unknown unknowns**
 
@@ -26,7 +26,7 @@ People with a fixed mindset often limit themselves by thinking they can only suc
 
 [source](https://mentorloop.com/blog/growth-mindset-vs-fixed-mindset-what-do-they-really-mean/)
 
-I'm firmly convinced that nothing is truly innate or inherent (I have written about it [here](https://jorzel.hashnode.dev/talent-is-overestimated)). Of course, it does not mean that everybody has the same chance to succeed. However, every skill and capability is a product of prior experiences. While it's true that some individuals appear to acquire skills more rapidly than others, there must always have been preceding practice or experience that contributed to their current level of ability.
+I'm firmly convinced that nothing is truly innate or inherent (I have written about it [here](https://jorzel.github.io/talent-is-overestimated/)). Of course, it does not mean that everybody has the same chance to succeed. However, every skill and capability is a product of prior experiences. While it's true that some individuals appear to acquire skills more rapidly than others, there must always have been preceding practice or experience that contributed to their current level of ability.
 
 From the argument that expanding our horizons and attempting to excel in areas where we might not consider ourselves "talented" (do not have enough expertise or skill-improvement rate now) can lead to success, it's crucial to understand that trying doesn't guarantee surefire success. Achieving success in virtually any field is challenging. It requires determination and grit and the support of an enabling environment. This includes people who can guide and mentor us, financial resources to fund our practice, and other essential resources like good health that are necessary for competitiveness and eventual success. Nonetheless, the growth mindset illuminates the possibility of success. It underscores our capacity to seek out resources, nurture our environment, methodically design our practice, and continually invest in training—akin to buying a ticket for the lottery of our aspirations.
 

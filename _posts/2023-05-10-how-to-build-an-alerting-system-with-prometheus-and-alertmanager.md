@@ -44,7 +44,7 @@ Overall, these Alertmanager components work together to provide a flexible and p
 
 Alertmanager does not trigger alerts, it is done by the Prometheus server. So in the first step, we would define and trigger an alert on the Prometheus side without handling it by any notifications target.
 
-In the [previous post](https://jorzel.hashnode.dev/how-to-use-prometheus-for-web-application-monitoring), we set up the Prometheus server to collect metrics from a web application. Now, we can use the existing Docker Compose file and extend it with some configurations.
+In the [previous post](https://jorzel.github.io/how-to-build-an-alerting-system-with-prometheus-and-alertmanager), we set up the Prometheus server to collect metrics from a web application. Now, we can use the existing Docker Compose file and extend it with some configurations.
 
 At first, we have to define a Prometheus rules file. In the rules file we define a list of groups identified by `name` key. Each rules group is executed in parallel. Within a group, we can determine a set of rules (alerting rules, but also recording rules) that are evaluated sequentially. The simplest alert that would be very useful and easy to test is a check whether our application is alive.
 
