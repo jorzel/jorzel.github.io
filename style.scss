@@ -351,12 +351,18 @@ nav {
 
 .post .entry {
   // A heading that opens the post is its subtitle, not a section
-  > h2:first-child, > h3:first-child {
+  > h2:first-child, > h3:first-child, > p:first-child:has(> em:only-child) {
     margin-top: -1.5rem;
     margin-bottom: 2rem;
+    font-family: $sans;
     font-weight: 400;
     font-size: $size-h3;
+    line-height: 1.35;
     color: $graphite;
+
+    em {
+      font-style: normal;
+    }
   }
 }
 
