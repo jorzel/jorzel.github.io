@@ -1,0 +1,426 @@
+{
+  "centralized-logs-with-grafana-loki.md": [
+    "programming",
+    "devops",
+    "observability",
+    "logging",
+    "grafana",
+    "loki"
+  ],
+  "from-configuration-to-automated-testing-a-comprehensive-guide-to-file-uploads-with-amazon-s3-and-minio-sdk-in-go.md": [
+    "programming",
+    "go",
+    "aws",
+    "s3",
+    "minio",
+    "testing",
+    "testcontainers"
+  ],
+  "the-myth-of-natural-talent.md": [
+    "learning",
+    "talent",
+    "deliberate-practice",
+    "self-improvement"
+  ],
+  "enhancing-scan-performance-with-redis-logical-databases.md": [
+    "programming",
+    "redis",
+    "database",
+    "performance"
+  ],
+  "how-to-utilize-amazon-s3-presigned-urls.md": [
+    "programming",
+    "python",
+    "aws",
+    "s3",
+    "security"
+  ],
+  "it-is-time-to-stop-doing-wrong-things-righter.md": [
+    "productivity",
+    "efficiency",
+    "work",
+    "self-improvement"
+  ],
+  "how-to-improve-your-documentation-with-various-types-of-diagrams.md": [
+    "programming",
+    "software-architecture",
+    "documentation",
+    "diagrams",
+    "c4model"
+  ],
+  "how-to-improve-the-visibility-of-system-internals.md": [
+    "programming",
+    "python",
+    "observability",
+    "monitoring",
+    "grafana",
+    "prometheus"
+  ],
+  "demand-and-support.md": [
+    "leadership",
+    "team",
+    "parenting",
+    "personal-development"
+  ],
+  "graceful-shutdown-why-it-matters-and-how-to-implement-it.md": [
+    "programming",
+    "go",
+    "software-engineering",
+    "reliability"
+  ],
+  "the-subtle-difference-between-shallow-and-deep-copy.md": [
+    "programming",
+    "go",
+    "software-engineering"
+  ],
+  "event-driven-approach-is-not-a-silver-bullet.md": [
+    "programming",
+    "software-architecture",
+    "event-driven-architecture",
+    "ddd",
+    "rest"
+  ],
+  "how-to-mock-http-servers-with-prism-and-openapi-specs.md": [
+    "programming",
+    "testing",
+    "openapi",
+    "rest",
+    "mocking"
+  ],
+  "about-the-importance-of-character-skills.md": [
+    "learning",
+    "talent",
+    "personal-development",
+    "growth-mindset"
+  ],
+  "the-talent-debate-does-mastery-require-giftedness.md": [
+    "learning",
+    "talent",
+    "giftedness",
+    "deliberate-practice",
+    "personal-development"
+  ],
+  "6-non-fiction-books-that-changed-the-way-i-think.md": [
+    "books",
+    "learning",
+    "personal-development"
+  ],
+  "why-i-write.md": [
+    "writing",
+    "learning",
+    "thinking",
+    "personal-development"
+  ],
+  "how-to-integrate-your-services-using-gcp-pub-sub.md": [
+    "programming",
+    "python",
+    "gcp",
+    "pubsub",
+    "cloud",
+    "distributed-systems"
+  ],
+  "9-laws-that-every-software-developer-should-know.md": [
+    "programming",
+    "software-engineering",
+    "software-development",
+    "laws"
+  ],
+  "how-to-incorporate-aws-lambda-into-a-distributed-system.md": [
+    "programming",
+    "python",
+    "aws",
+    "aws-lambda",
+    "cloud",
+    "distributed-systems"
+  ],
+  "what-it-means-to-be-10x-engineer.md": [
+    "programming",
+    "software-engineering",
+    "career",
+    "personal-development"
+  ],
+  "how-to-determine-what-is-important.md": [
+    "productivity",
+    "prioritization",
+    "decision-making",
+    "personal-development"
+  ],
+  "4-great-novels-that-remain-universally-relevant.md": [
+    "books",
+    "literature",
+    "life"
+  ],
+  "the-idea-of-synthetic-monitoring.md": [
+    "programming",
+    "python",
+    "monitoring",
+    "observability",
+    "synthetic-monitoring",
+    "devops"
+  ],
+  "how-to-improve-as-a-software-developer-by-embracing-ultralearning-principles.md": [
+    "learning",
+    "ultralearning",
+    "programming",
+    "self-improvement",
+    "learning-journey"
+  ],
+  "the-long-game-meditations-on-productivity-and-improvement.md": [
+    "productivity",
+    "career",
+    "well-being",
+    "personal-development"
+  ],
+  "the-traps-of-shallow-understanding-when-models-and-observations-are-not-enough.md": [
+    "thinking",
+    "mental-models",
+    "decision-making",
+    "problem-solving-skills"
+  ],
+  "9-insights-from-four-thousand-weeks.md": [
+    "books",
+    "life",
+    "time-management",
+    "productivity"
+  ],
+  "what-is-rate-limiting-and-how-to-implement-it-from-algorithm-to-system-architecture.md": [
+    "programming",
+    "software-architecture",
+    "rate-limiting",
+    "distributed-systems"
+  ],
+  "understanding-consistent-hashing-concepts-pitfalls-and-real-world-use-cases.md": [
+    "programming",
+    "software-architecture",
+    "distributed-systems",
+    "consistent-hashing"
+  ],
+  "building-your-redis-from-scratch-implementing-a-basic-server-in-go.md": [
+    "programming",
+    "go",
+    "redis",
+    "database",
+    "build-your-own"
+  ],
+  "building-your-redis-from-scratch-multi-node-architecture-initial-communication.md": [
+    "programming",
+    "go",
+    "redis",
+    "distributed-systems",
+    "build-your-own"
+  ],
+  "what-went-wrong-with-out-happiness.md": [
+    "happiness",
+    "life",
+    "philosophy",
+    "personal-development"
+  ],
+  "the-arsonists-reward-why-we-fix-instead-of-prevent.md": [
+    "problem-solving-skills",
+    "incentives",
+    "prevention",
+    "work"
+  ],
+  "how-many-tennis-balls-fit-in-a-bus-why-weird-interview-questions-sometimes-make-sense.md": [
+    "interview",
+    "thinking",
+    "problem-solving-skills",
+    "estimation"
+  ],
+  "3-questions-that-will-make-you-rethink-your-life.md": [
+    "life",
+    "philosophy",
+    "personal-development"
+  ],
+  "the-hidden-forces-shaping-our-systems-cognitive-biases-in-software-development.md": [
+    "programming",
+    "software-development",
+    "cognitive-biases",
+    "psychology",
+    "decision-making"
+  ],
+  "strategic-ddd-by-example-bounded-contexts-mapping.md": [
+    "programming",
+    "ddd",
+    "software-architecture",
+    "bounded-context",
+    "context-mapping"
+  ],
+  "generating-unique-and-sortable-ids-in-distributed-systems.md": [
+    "programming",
+    "distributed-systems",
+    "software-architecture",
+    "database"
+  ],
+  "redis-and-the-magic-of-zset.md": [
+    "programming",
+    "redis",
+    "database",
+    "data-structures"
+  ],
+  "finding-balance-the-art-of-living-between-extremes.md": [
+    "life",
+    "philosophy",
+    "balance",
+    "personal-development"
+  ],
+  "tactical-ddd-by-example-can-we-implement-aggregates-using-redis.md": [
+    "programming",
+    "ddd",
+    "redis",
+    "aggregate",
+    "domain-model"
+  ],
+  "talent-is-a-loop.md": [
+    "learning",
+    "talent",
+    "self-improvement",
+    "motivation"
+  ],
+  "when-deliberate-practice-isnt-enough.md": [
+    "learning",
+    "talent",
+    "deliberate-practice",
+    "wicked-domains",
+    "programming"
+  ],
+  "oh-my-claude-how-software-development-is-changing-with-agentic-coding.md": [
+    "programming",
+    "ai",
+    "agentic-coding",
+    "claude",
+    "software-development"
+  ],
+  "what-does-it-mean-to-accept-emotions.md": [
+    "psychology",
+    "emotions",
+    "life",
+    "well-being"
+  ],
+  "coming-out-of-the-shadows-how-karen-carpenter-developed-her-talent.md": [
+    "talent",
+    "music",
+    "learning",
+    "deliberate-practice"
+  ],
+  "gateway-skills.md": [
+    "learning",
+    "skills",
+    "self-improvement",
+    "personal-development"
+  ],
+  "why-you-must-invest-before-you-know.md": [
+    "talent",
+    "motivation",
+    "commitment",
+    "life",
+    "learning"
+  ],
+  "the-brain-that-proved-itself.md": [
+    "talent",
+    "learning",
+    "neuroscience",
+    "biography"
+  ],
+  "why-child-prodigies-rarely-become-superstars.md": [
+    "talent",
+    "learning",
+    "prodigies",
+    "personal-development"
+  ],
+  "how-to-utilize-claude-code-a-plan-built-by-claude.md": [
+    "programming",
+    "ai",
+    "claude",
+    "agentic-coding",
+    "productivity"
+  ],
+  "single-skill-what-makes-engineers-great.md": [
+    "programming",
+    "software-engineering",
+    "problem-solving-skills",
+    "ai"
+  ],
+  "the-scaffolding-trick.md": [
+    "learning",
+    "talent",
+    "scaffolding",
+    "motivation"
+  ],
+  "intelligence-is-cheap-whats-expensive.md": [
+    "programming",
+    "ai",
+    "agentic-coding",
+    "software-engineering",
+    "career"
+  ],
+  "a-life-which-is-a-warning.md": [
+    "books",
+    "literature",
+    "philosophy",
+    "life"
+  ],
+  "the-trap-of-knowing-what-you-want.md": [
+    "philosophy",
+    "life",
+    "happiness",
+    "decision-making"
+  ],
+  "happiness-needs-design.md": [
+    "happiness",
+    "life",
+    "philosophy",
+    "well-being"
+  ],
+  "winston-star.md": [
+    "writing",
+    "communication",
+    "ideas"
+  ],
+  "the-talent-manufacturing-pipeline.md": [
+    "talent",
+    "learning",
+    "deliberate-practice",
+    "giftedness"
+  ],
+  "the-compassionate-lie.md": [
+    "talent",
+    "learning",
+    "psychology",
+    "growth-mindset"
+  ],
+  "the-power-of-eccentricity.md": [
+    "talent",
+    "biography",
+    "psychology"
+  ],
+  "tricky-software-questions.md": [
+    "programming",
+    "learning",
+    "software-engineering"
+  ],
+  "effortless-is-a-myth.md": [
+    "talent",
+    "deliberate-practice",
+    "sport",
+    "learning"
+  ],
+  "resilience-the-emotional-architecture-of-mastery.md": [
+    "talent",
+    "resilience",
+    "learning",
+    "psychology"
+  ],
+  "three-doubts-about-loop-engineering.md": [
+    "programming",
+    "ai",
+    "agentic-coding",
+    "software-engineering"
+  ],
+  "dont-make-right-decisions.md": [
+    "decision-making",
+    "life",
+    "psychology",
+    "commitment"
+  ]
+}
