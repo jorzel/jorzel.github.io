@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
-<div class="post">
-<h1>Tag: {{ page.tag }}</h1>
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
-{% endfor %}
-</ul>
+{% assign posts = site.tags[page.tag] %}
+<div class="tag-page">
+  <h1>Posts tagged “{{ page.tag }}”</h1>
+  <p class="intro">{{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</p>
+
+  <ol class="post-list">
+    {% for post in posts %}
+    <li class="post-item post-item--dated">
+      <time class="post-item-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+      <div class="post-item-body">
+        <h2 class="post-item-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        {% if post.description %}<p class="post-item-summary">{{ post.description }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
 </div>
-<hr>
