@@ -1,0 +1,21 @@
+//
+// SELF-HOSTED FONTS (Latin subset, SIL Open Font License; see /fonts/OFL-*.txt)
+//
+
+@mixin font-face($family, $file, $weight, $style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url("/fonts/#{$file}.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include font-face("Literata", "literata-latin-400-normal", 400);
+@include font-face("Literata", "literata-latin-400-italic", 400, italic);
+@include font-face("Literata", "literata-latin-600-normal", 600);
+@include font-face("Literata", "literata-latin-600-italic", 600, italic);
+@include font-face("IBM Plex Sans", "ibm-plex-sans-latin-400-normal", 400);
+@include font-face("IBM Plex Sans", "ibm-plex-sans-latin-600-normal", 600);
+@include font-face("IBM Plex Mono", "ibm-plex-mono-latin-400-normal", 400);
