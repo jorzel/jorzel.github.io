@@ -234,12 +234,64 @@ nav {
 // .main
 //
 
+.post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post-title, .page > h1 {
+  margin: 0 0 0.5rem;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin: 0;
+  font-family: $sans;
+  font-size: $size-small;
+  color: $graphite;
+}
+
+// Tags: plain lowercase words, separated by space
+.tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0 0.75rem;
+
+  a {
+    color: $graphite;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-blue;
+      text-decoration: underline;
+    }
+  }
+}
+
+.post .entry {
+  // A heading that opens the post is its subtitle, not a section
+  > h2:first-child, > h3:first-child {
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: $size-h3;
+    color: $graphite;
+  }
+}
+
 .post, .page {
   .entry {
     // Diagrams and screenshots sit centered with room around them
     p:has(> img) {
       text-align: center;
       margin: 2em 0;
+    }
+
+    // Portrait images (book covers, photos) must not tower over the text
+    img {
+      max-height: 36rem;
+      width: auto;
     }
 
     // An italic line right after an image is its caption
