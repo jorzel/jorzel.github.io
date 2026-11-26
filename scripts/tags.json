@@ -422,5 +422,25 @@
     "life",
     "psychology",
     "commitment"
+  ],
+  "it-is-timing.md": [
+    "learning",
+    "deliberate-practice",
+    "talent",
+    "self-improvement"
+  ],
+  "robust-url-shortener.md": [
+    "programming",
+    "system-design",
+    "software-architecture",
+    "distributed-systems",
+    "interview"
+  ],
+  "is-deep-work-possible-anymore.md": [
+    "deep-work",
+    "ai",
+    "agentic-coding",
+    "productivity",
+    "learning"
   ]
 }

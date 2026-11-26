@@ -332,7 +332,9 @@ def main(hub_dir, blog_dir, tags_path=None):
 
     images_dir = os.path.join(blog_dir, "images")
     for src, name in copies:
-        shutil.copyfile(src, os.path.join(images_dir, name))
+        dest = os.path.join(images_dir, name)
+        os.makedirs(os.path.dirname(dest), exist_ok=True)  # e.g. images/url-shortener/
+        shutil.copyfile(src, dest)
     print(f"written: {len(posts)} posts, {len(copies)} images")
     for u in unresolved:
         print("UNRESOLVED LINK:", u)
