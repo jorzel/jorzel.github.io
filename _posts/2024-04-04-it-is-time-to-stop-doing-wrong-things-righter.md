@@ -1,0 +1,70 @@
+---
+title: "It is time to stop doing wrong things righter"
+description: "The sense of accomplishment of completing a nice technical stuff is sometimes so alluring that we prefer not to think whether it was needed at all."
+slug: it-is-time-to-stop-doing-wrong-things-righter
+tags: productivity efficiency work self-improvement
+
+---
+> Being busy is much easier than being successful
+
+The sense of accomplishment of completing a nice technical stuff is sometimes so alluring that we prefer not to think whether it was needed at all. Great engineers are skilled to put technical problems off the table to make room for business ideas to thrive. However, there are many for whom technical problems are the table. One of the ways to escape [efficiency traps](https://jorzel.github.io/efficency-traps/) is changing perspective how we perceive our work.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712231477851/dcee18cb-c941-44cb-9113-0a8ab19809c8.png)
+
+source: [https://twitter.com/Sys\_innovation/status/1394590166367580165](https://twitter.com/Sys_innovation/status/1394590166367580165)
+
+## Output factory
+
+> *“A leveraged worker can out-produce non-levaraged worker by a factor of one thousand or ten thousand. With a levareged worker, judgement is far more important than how much time they put in or how hard they work”*
+> 
+> N. Ravikant
+
+We would like to believe that there is a linear relation between our effort and the effect it generates. There is probably some correlation between the input we put and the output we get. The longer we work, the more tasks are accomplished. The more we code, the more features we implement.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712064210575/670196d1-50e4-495c-9f61-acba5ab08220.png)
+
+Nevertheless, generating more output is the aim of hardly any person or organization. Instead, we want to achieve a specific outcome (or value): better experience, increased usage, etc. However, we know how to work more, but usually have no idea how to do it better. When we want to achieve proper outcomes, good judgment or decision is much more important than the effort that is put into implementing it. Wasted energy is one of the main results of bad decisions.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712064197408/e682137e-13f5-4bdd-898b-eda4613d9f0f.png)
+
+On the other hand, if we make a good decision about what should be done, even a tiny effort can bring great effect.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712064183013/2ae248e8-2703-497e-a9c7-ae84a53808ac.png)
+
+Knowledge work is characterized by a disconnection between the input and the outcome. The number of hours you put in is not a crucial thing. The crucial thing is for what activity you allocate them.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712228597482/cf13ab2b-549b-41c3-bdb3-32a6f622168e.png)
+
+## Measure impact
+
+You probably have heard of 10x engineers (programmers). It would be naive to believe that they produce 10x more work. They are just more effective and their work brings desired outcomes. They usually start with baseline data and have a clear target of what they want to achieve. And after each work iteration measure whether we are closer or not to the destination.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712240264103/5520a9b0-b306-49a7-a14e-231acd00404d.png)
+
+## Performance myth
+
+Performance myth is when we believe that hard work will eventually lead us to success. If we want our product to be great, we just need to establish a development process and meticulously follow the rules we have. There are a lot of companies that are convinced that implementing Scrum methodology will magically improve the product. It is a kind of bottom-up approach where we hope that good decisions and proper direction somehow emerge from well-practiced activities and development pipelines. However, to succeed we need a proper aim (or goal) that enforces a direction. And each of our activities, practices, and ideas should be aligned with it.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712235893444/496f3f5f-88cb-4daa-9ddf-2a17d613d8a3.png)
+
+Doing wrong stuff or unnecessary things in the right way will not improve our plight. There is nothing wrong with Scrum ceremonies like sprints, daily meetings, or retrospectives. But they should only be instrumental in our strategic goals. They should enable us with fast iterations, frequent feedback, and outcomes measurement. If they hinder us instead of making us robust, we just doing "Agile" instead of being Agile (please see a great talk by [Gabrielle Benefield *If Agile is so Good, Why Are Our Products so Bad?*](https://www.youtube.com/watch?v=2JNXx8VdbAE)).
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712229605027/400d5266-88e3-4f3e-b82e-7ae5631a9352.png)
+
+source: [https://twitter.com/allenholub/status/1748420514438344982](https://twitter.com/allenholub/status/1748420514438344982)
+
+## The space for thinking
+
+> "There is no favorable wind for the sailor who doesn’t know where to go"
+> 
+> Seneka
+
+I know that is easy to say that we should work only on meaningful topics that are aligned with the core strategy. Strategic thinking is hard. There are no *a priori* answers or solutions. The context is the key. However, what we can do is leave some space for thinking. If we are immersed in ongoing busyness, we for sure will not follow goals because we have not determined them yet. The necessary condition to change our approach is to create a space for thinking, where we have room for stepping back and finding the proper perspective.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712235447111/18a4bf38-0728-4342-931e-ac0fc3efde68.png)
+
+Take breaks, find inspirations outside regular topics, and designate some time for retrospective evaluation and designing future actions.
+
+## Conclusion
+
+Doing wrong things righter - it is something that we usually are not aware of. We are deeply convinced that all the stuff we are doing is necessary and desired. Our indicator of making progress is being constantly busy because measuring the value that our effort brings could be hard. However, finding awareness about this topic could be a good starting point to leave an inerted work treadmill.
