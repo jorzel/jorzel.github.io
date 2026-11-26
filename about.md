@@ -10,8 +10,6 @@ I write about two things. The first is software: architecture, distributed syste
 
 ## Elsewhere
 
-- [Substack](https://substack.com/@jarekorzel)
-- [Medium](https://medium.com/@orzel.jarek)
-- [GitHub](https://github.com/jorzel)
-- [LinkedIn](https://www.linkedin.com/in/jaros%C5%82aw-orze%C5%82-81682686/)
-- X: [@jareko17](https://x.com/jareko17) and [@jorzel_software](https://x.com/jorzel_software)
+{% for link in site.data.elsewhere %}
+- [{{ link.name }}]({{ link.url }})
+{%- endfor %}

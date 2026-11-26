@@ -29,7 +29,11 @@
 
     <div class="container">
       <footer class="footer">
-        {% include svg-icons.html %}
+        <ul class="footer-links">
+          {% for link in site.data.elsewhere %}<li><a href="{{ link.url }}">{{ link.name }}</a></li>{% endfor %}
+          <li><a href="mailto:{{ site.email }}">Email</a></li>
+          <li><a href="{{ site.baseurl }}/feed.xml">RSS</a></li>
+        </ul>
       </footer>
     </div>
 

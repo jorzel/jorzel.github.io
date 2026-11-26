@@ -398,13 +398,29 @@ footer {
   margin-top: 4rem;
   padding: 1.5rem 0 2.5rem;
   border-top: 1px solid $rule;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: $sans;
+  font-size: $size-small;
+
+  li {
+    margin: 0;
+  }
 
   a {
+    color: $graphite;
     text-decoration: none;
-    opacity: 0.7;
 
     &:hover {
-      opacity: 1;
+      color: $link-blue;
+      text-decoration: underline;
     }
   }
 }
@@ -412,4 +428,3 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
-@import "svg-icons";
